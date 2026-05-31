@@ -71,16 +71,15 @@ ROLE_PERMISSIONS: Dict[Role, List[str]] = {
 
 DEFAULT_USERS = {
     "submitter": {"email": "submitter@fafo.local", "role": Role.SUBMITTER},
-    "reviewer": {"email": "reviewer@fafo.local", "role": Role.REVIEWER},
-    "lawyer": {"email": "lawyer@fafo.local", "role": Role.LAWYER},
-    "admin": {"email": "admin@fafo.local", "role": Role.ADMIN},
+    "Parents": {"email": "parents@fafo.local", "role": Role.REVIEWER},
+    "legal_authorities": {"email": "legal@authority.local", "role": Role.LAWYER},
+    "SpongeBob": {"email": "admin@fafo.local", "role": Role.ADMIN},
 }
-
 DEFAULT_PASSWORDS = {
     "submitter": "Submitter@123",
-    "reviewer": "Reviewer@123",
-    "lawyer": "Lawyer@123",
-    "admin": "Admin@123",
+    "Parents": "Password",
+    "legal_authorities": "LegalAuthority@123",
+    "SpongeBob": "patrickstarboy",
 }
 
 def has_permission(role: Role, permission: str) -> bool:
