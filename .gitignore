@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+*.log
+*.env
+
+# Streamlit / runtime
+venv/
+env/
+ENV/
+
+# Local IDE/editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated application folders
+evidence_repository/
+logs/
+
+# Setup and development scripts (not needed for deployment)
+bootstrap_fafo.py
+create_dirs.py
+fafo_complete_setup.py
+init_structure.py
+setup_project.py
+fafo_master.py
+
+# Development and documentation
+scratch/
+implementation_plan.md
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+
+# Large or non-app assets not required for deployment
+*.docx
+*.pdf
