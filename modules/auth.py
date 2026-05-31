@@ -183,16 +183,16 @@ def render_login_panel():
         st.markdown("</div>", unsafe_allow_html=True)
         
         # Display helper note with default passwords for demonstration
-        with st.expander("🔑 Secure Developer Sandbox Credentials (Demo Only)"):
-            st.markdown(
-                """
-                <div style='background-color: #02070e; border: 1px solid #1a3c6e; padding: 12px; border-radius: 6px; font-family: monospace; font-size: 0.85rem;'>
-                    <b>Default Accounts:</b><br>
-                    • Submitter: <code style='color:#00e5ff;'>submitter</code> / passphrase: <code style='color:#00e5ff;'>Submitter@123</code><br>
-                    • Reviewer: <code style='color:#ff9f1c;'>reviewer</code> / passphrase: <code style='color:#ff9f1c;'>Reviewer@123</code><br>
-                    • Lawyer: <code style='color:#7289da;'>lawyer</code> / passphrase: <code style='color:#7289da;'>Lawyer@123</code><br>
-                    • Administrator: <code style='color:#ff3860;'>admin</code> / passphrase: <code style='color:#ff3860;'>Admin@123</code>
-                </div>
-                """, 
-                unsafe_allow_html=True
-            )
+     #   with st.expander("🔑 Secure Developer Sandbox Credentials (Demo Only)"):
+      #      st.markdown(
+       #         """
+       #         <div style='background-color: #02070e; border: 1px solid #1a3c6e; padding: 12px; border-radius: 6px; font-family: monospace; font-size: 0.85rem;'>
+        #            <b>Default Accounts:</b><br>
+        #            • Submitter: <code style='color:#00e5ff;'>submitter</code> / passphrase: <code style='color:#00e5ff;'>Submitter@123</code><br>
+        #            • Reviewer: <code style='color:#ff9f1c;'>reviewer</code> / passphrase: <code style='color:#ff9f1c;'>Reviewer@123</code><br>
+        #            • Lawyer: <code style='color:#7289da;'>lawyer</code> / passphrase: <code style='color:#7289da;'>Lawyer@123</code><br>
+       #             • Administrator: <code style='color:#ff3860;'>admin</code> / passphrase: <code style='color:#ff3860;'>Admin@123</code>
+        #        </div>
+         #       """, 
+       #         unsafe_allow_html=True
+           # )
